@@ -127,7 +127,7 @@ const RecordComponent = props => {
               position: absolute;
 
               border-radius: 50%;
-              background-color: #74b49b;
+              background-color: #fff;
             `,
             isRecording || isConverting
               ? css`
@@ -144,7 +144,7 @@ const RecordComponent = props => {
             left: 0;
             position: absolute;
             border-radius: 50%;
-            background-color: #74b49b;
+            background-color: #fff;
             display: flex;
             cursor: pointer;
           `}

@@ -23,20 +23,20 @@ const theme = {
     borderRadius: "4px"
   },
   sectionHeader: {
-    color: "#74b49b"
+    color: "#fff"
   },
   sectionFooterSecondaryContent: {
     color: "#303952"
   },
   inputLabel: {
-    color: "#74b49b"
+    color: "#fff"
   },
   input: {
     backgroundColor: "#f4f9f4",
-    color: "#74b49b"
+    color: "#fff"
   },
   hint: {
-    color: "#74b49b"
+    color: "#fff"
   },
   button: {
     borderRadius: "3px",

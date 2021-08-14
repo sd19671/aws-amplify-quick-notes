@@ -7,23 +7,23 @@ import { Formik } from "formik";
 import Dialog from "./Dialog";
 
 const StyledButton = styled(Button)`
-  background-color: #74b49b;
+  background-color: #fff;
   cursor: pointer;
 `;
 
 const StyledLabel = styled(Label)`
-  color: #74b49b;
+  color: #fff;
   margin-bottom: 4px;
 `;
 
 const StyledInput = styled(Input)`
-  color: #74b49b;
+  color: #fff;
   border-radius: 3px;
   background-color: #f4f9f4;
 `;
 
 const StyledTextarea = styled("textarea")`
-  color: #74b49b;
+  color: #fff;
   background-color: #f4f9f4;
   width: 100%;
   min-height: 80px;
@@ -57,7 +57,7 @@ const InputContainer = styled("div")`
 `;
 
 const Title = styled("h2")`
-  color: #74b49b;
+  color: #fff;
 `;
 
 const RecordingEditor = props => (

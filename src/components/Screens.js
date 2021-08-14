@@ -25,12 +25,12 @@ const Title = styled("h1")`
   margin-top: 0;
   margin-bottom: 0;
   text-transform: uppercase;
-  color: #74b49b;
+  color: #fff;
   font-size: 24px;
 `;
 
 const SignOutButton = styled(Button)`
-  background-color: #74b49b;
+  background-color: #fff;
   cursor: pointer;
 `;
 
@@ -53,8 +53,8 @@ const StyledTabList = styled(TabList)`
   box-shadow: 0 6px 6px rgba(116, 180, 155, 0.4);
 
   & > [data-selected] {
-    border-bottom-color: #74b49b;
-    color: #74b49b;
+    border-bottom-color: #fff;
+    color: #fff;
   }
 `;
 
@@ -78,7 +78,7 @@ const StyledTab = styled(Tab)`
   text-transform: uppercase;
   flex: 1;
   padding: 16px;
-  color: #74b49b;
+  color: #fff;
   background-color: #ffffff;
   font-size: 16px;
   border: none;
