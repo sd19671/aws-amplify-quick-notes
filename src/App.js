@@ -9,7 +9,7 @@ import Screens from "./components/Screens";
 const Title = styled("h1")`
   text-align: center;
   text-transform: uppercase;
-  color: #a7d7c5;
+  color: #fff;
   margin-bottom: 8px;
 `;
 
@@ -75,7 +75,7 @@ function App() {
           }
         }}
         amplifyConfig={awsExports}
-        theme={theme}
+        //theme={theme}
       />
     </>
   );

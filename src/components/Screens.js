@@ -97,7 +97,7 @@ const Screens = () => {
             Auth.signOut().then(() => window.location.reload());
           }}
         >
-          Sign Out
+          Exit and Log Out
         </SignOutButton>
       </Header>
       <StyledTabs index={tabIndex} onChange={index => setTabIndex(index)}>
