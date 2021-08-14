@@ -102,8 +102,9 @@ const Screens = () => {
       </Header>
       <StyledTabs index={tabIndex} onChange={index => setTabIndex(index)}>
         <StyledTabList>
-          <StyledTab>Notes</StyledTab>
-          <StyledTab>Record</StyledTab>
+          <StyledTab>Our Notes</StyledTab>
+          <StyledTab>Record a Note</StyledTab>
+          <StyledTab>Share</StyledTab>
         </StyledTabList>
         <StyledTabPanels>
           <StyledTabPanel>
@@ -111,6 +112,9 @@ const Screens = () => {
           </StyledTabPanel>
           <StyledTabPanel>
             {tabIndex === 1 && <Record setTabIndex={setTabIndex} />}
+          </StyledTabPanel>
+          <StyledTabPanel>
+            {tabIndex === 2 && <Record setTabIndex={setTabIndex} />}
           </StyledTabPanel>
         </StyledTabPanels>
       </StyledTabs>
