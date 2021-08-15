@@ -14,9 +14,6 @@ const Title = styled("h1")`
   margin-bottom: 8px;
 `;
 
-const theme = {
-};
-
 function App() {
   const [state, setState] = useState({ isLoggedIn: false, user: null });
 
@@ -45,7 +42,7 @@ function App() {
           }
         }}
         amplifyConfig={awsExports}
-        theme={theme}
+       
       />
     </>
   );
