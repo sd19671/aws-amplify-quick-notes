@@ -62,7 +62,7 @@ const Title = styled("h2")`
 
 const RecordingEditor = props => (
   <Dialog onDismiss={props.onDismiss}>
-    <Title>{props.title ? "Edit" : "Add"}</Title>
+    <Title>{props.title ? "Edit Note" : "Create Note"}</Title>
     <Formik
       initialValues={{
         title: props.title || "",
