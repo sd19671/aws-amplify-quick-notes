@@ -34,7 +34,7 @@ function App() {
     <Screens />
   ) : (
     <>
-      <Title>Super Awesome Secure Dugan Family Notes</Title>
+      <Title>Super Awesome Dugan Family Messenger</Title>
       <Authenticator
         onStateChange={authState => {
           if (authState === "signedIn") {
